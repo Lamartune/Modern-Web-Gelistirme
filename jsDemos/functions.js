@@ -1,12 +1,12 @@
-function sayiUret(){
-    return Math.ceil(Math.random() * 49)
+function sayiUret(ustLimit = 49){
+    return Math.ceil(Math.random() * ustLimit)
 }
 
 //Keyword = return
 
 sayiUret()
 
-var sayi1 = sayiUret()
+var sayi1 = sayiUret(1000)
 var sayi2 = sayiUret()
 var sayi3 = sayiUret()
 var sayi4 = sayiUret()
