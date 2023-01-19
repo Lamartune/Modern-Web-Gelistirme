@@ -1,8 +1,11 @@
+var degisken = "Değer";
+
 function sayiUret(ustLimit = 49){
     return Math.ceil(Math.random() * ustLimit)
 }
-
 //Keyword = return
+
+console.log(degisken)
 
 sayiUret()
 
