@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Selectors</title>
+
+    <style>
+      /* Tüm h1 leri seç */
+
+      /* h1{
+            color: red;
+            background-color: blue;
+        }
+
+        p{
+            color: red;
+            background-color: blue;
+        } */
+
+      /* h1,p {
+            color: red;
+            background-color: blue;
+        } */
+
+      /* #logo{
+            color: red;
+            background: blue;
+        } */
+
+      /* .info {
+            color: red;
+            background: blue;
+        } */
+
+      /* #logo,
+      .lead {
+        color: red;
+        background-color: blue;
+      } */
+
+      /* #para1.lead{
+        color: red;
+        background-color: blue;
+      } */
+
+      /* a{
+        text-decoration: none;
+      } */
+
+      /* ul li a{
+        text-decoration: none;
+        color: red;
+      } */
+
+      /* .info span{
+        color: red;
+      } */
+
+      /* .info .prima{
+        color: red;
+      } */
+
+      *{
+        color:red;
+        font-size: 30px;
+        margin: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header 1</h1>
+      <h1 id="logo">Logo</h1>
+
+      <ul>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+      </ul>
+    </header>
+
+    <h1>Header 2</h1>
+
+    <p id="para1" class="lead info">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+    <p class="info">
+      Lorem ipsum <span class="prima">dolor sit amet</span> consectetur
+      adipisicing.
+    </p>
+
+    <p>Test Paragraph</p>
+
+    <a href="#">Home</a>
+  </body>
+</html>
