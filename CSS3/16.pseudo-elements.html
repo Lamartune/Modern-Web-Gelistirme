@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Pseudo Elements</title>
+
+    <style>
+      .para-1 {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+      }
+      /* .para-1::first-line{
+            color: red;
+        }
+        .para-1::first-letter{
+            color: blue;
+        } */
+      /* ---------------------------------- */
+      .para-1::after {
+        content: "Paragraf Sonrası";
+      }
+      .para-1::before {
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAYFBMVEX///8AAADv7+/19fWqqqowMDDm5ua3t7fY2Nitra2ysrKZmZng4OAbGxucnJxzc3M8PDwkJCRra2vOzs5GRkYpKSlPT09VVVWMjIxeXl59fX2kpKTIyMgJCQnBwcE2NjaYZYpeAAAEZ0lEQVRogdWba5uyIBCGSTxUauapNmvr///LXbfXnMHBgIWd632+lVzcymGYgUEIrWSb5U2XlBtXlUnX5Fkr9QidttfOHau8RHfd2qCj3dkTedJ5Fxmy5aH2zB5VH4x64BoA/dT1Lbvtg8E3m75dh38EZI/6WGGnl8DwzeaS6uBFyFaf1Bc0fPsH7FHk5P8rOIkviGLdELdpGrkqTdt46Ih6F42fLvq8ywsHC72QLPLFC/Tq0FNH+/HugTwpOyq1X/BzdZ7HHtmjYqV+NO9b/Ozso8mxpLJuQauHO33NILkLN28/P8ALy/vFwE0aivwTuIqfejcP3+xPocY/PP+LoDNx9gyMkE8Dh179fLKj2sOL2qouy/oymw7Ux7vFC/mc57Kaam1eDQDn/U8zw9Xl6BEugIE9vvAPQBtXGzgSfZrXAbbyy7Rm4M8rfsXOI1xZsLPpf4yTIGjIPdIHTD9N/4PpXUpk4jVOj4uksqyW02SCfkQLO6LzON0iNSKZvgy+VgZbYvAHF6kaBb7cKdAluWjmH1aTvbjt86FqqiHf34ge07Y8nPINHINvIg3wYVlVf4KqP+sqU50l3aiDA60TyfxD6+jjr7pfqNi6vNzRsNHNOJHOfyYC1GRCl7Hqo806xpBfwUfzp0N6KUARgxB7vx5c13tQFjhMJfiwCJS3ohfQStN6gBH4GtAn2CaudNUxpQVmTtt8j6q+wauHG11WKkejCnzpdzyj1upEj06G8O+GXq/IgS5tout+zWQ70CO70L5fq8qaLolm75vhGu/j69AQb3bSf709fTHgkmE7l462Q6IWqPzR1U20ZKd+mtypfO2SZUtXNxYOZKmDUkrnqtjSsYV76IpFSjk/9D2qtNFUOqpBJfd0ITu6RAvLuv+DFvWaHvd2dGTd1758FPp6euBZ0SVcz3V9OQv2/ZH8eCv6ffOuhLZuOjSyosPNLHqqYcGJd6EK2NAL4HklBnABHcWSmvM2dBj17YzocDsgI57b0IGFT8xCHQk+nrL2NnQw2U1DHTDp69/RCxA0mB5rAU/+k+h4C/ptfrrmMeDqwXp/+xUd2Ph3Zm4WMHiErbegO0W4KEr9DR1UZL6HCZwR4pUt6GDCmcfXYF0ippwFfb0LNVofLP/Nt/P2O++Y553vvLaO187zrnHM6zuvb8Pr1/H6tMz+PG8swxvHMcewvPE7894F874N754V834d814l7z4t8x418/6849mEN7rDuYxXuu2ZlGe63XmcCT3YWaRO6Cwy1DmsCT1xOoMuiDNo47wFdAYd6PxdL3T+Hij3QC8U4QbKu9AK510EyjnRCuechMq30Qnn24TKNdJJwYXKs6IFQ6NxJyhYjhkpaCl/tiNC5ddRWuTXBcwtXIjILQyaV4lF5FXy5pQy59Py5hIz51Ez55Dz5s8v7w48qK02V2WqL6xuZvHem+C9M8J8X4b5rhDzPSnmO2KC936cYL4bKHjvRQrmO6GC9z7sjxjvAv/rgfD3oL8AVtVFr14CYX8AAAAASUVORK5CYII=);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="para-1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+      quisquam voluptates commodi repellat id ea, illo laudantium neque
+      voluptatem aspernatur accusantium? Autem eos nihil odit. Facilis totam
+      voluptatibus dolores? Id nobis necessitatibus impedit ipsum fugit, esse
+      cum molestiae numquam, voluptatum corporis delectus consectetur eligendi
+      vitae odit magni tenetur quidem, sed assumenda quia blanditiis. Fugiat
+      nesciunt error explicabo corporis voluptate et sunt, atque quis itaque
+      neque mollitia nobis officia excepturi saepe! Dolor velit harum natus
+      officia rem voluptatem odio similique quo. Officiis id nemo eligendi vel
+      reprehenderit esse error officia alias magni ad, ducimus earum corporis et
+      minima veritatis obcaecati? Facere.
+    </p>
+  </body>
+</html>
