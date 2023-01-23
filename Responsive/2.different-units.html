@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive - CSS Units</title>
+
+    <style>
+      /* Responsive Units: em, rem, %, vw, vh */
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 20px;
+      }
+      /* .div {
+        font-size: 1.5em;
+      } 
+      p {
+        font-size: 1.5em;
+        padding: 1.5em;
+      } */
+      /* ------------------------------ */
+      /* p{
+        font-size: 50%;
+      } */
+      /* ------------------------------ */
+      /* div{
+        width: 40vw;
+        height: 10vh;
+        background: #a7a7a7;
+      } */
+      /* ------------------------------ */
+      .background {
+        background: url(../HTML5/images/live.jpg) center center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        align-items: center;
+        padding: 10rem;
+      }
+      h1{
+        margin-bottom: 1rem;
+        font-size: 3rem;
+      }
+      p{
+        font-size: 2rem;
+        letter-spacing: 1px;
+      }
+      @media(max-width: 500px){
+        h1{
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dicta.
+      </p> -->
+      <!-- -------------------------------------------------------------------------------- -->
+      <div class="background">
+        <h1>Welcome To The Site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </div>
+  </body>
+</html>
