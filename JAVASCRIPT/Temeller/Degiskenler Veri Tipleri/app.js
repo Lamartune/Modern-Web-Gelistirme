@@ -129,12 +129,12 @@
 
 //------------------------
 
-var a = [1,2,3];
+var a = [1, 2, 3];
 
 var b = a;
 
-console.log(a,b)
+console.log(a, b);
 
 a.push(4);
 
-console.log(b)
+console.log(b);
