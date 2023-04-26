@@ -45,7 +45,7 @@ value = langs.split(","); //Virgüle göre parçalama işlemi
 //Replace
 value = langs.replace("Python", "CSS");
 
-//Includesfalse dödürür
-value = langs.includes("Java") //String içinde Java bulabilirse True bulamazsa 
+//Includes
+value = langs.includes("Java"); //String içinde Java bulabilirse True bulamazsa false döndürür.
 
 console.log(value);
