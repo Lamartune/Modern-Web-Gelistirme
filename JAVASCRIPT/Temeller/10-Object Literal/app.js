@@ -52,3 +52,6 @@ console.log(value);
 
 value = programmers[0].name;
 console.log(value);
+
+value = programmers[1].age;
+console.log(value);
